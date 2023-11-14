@@ -1,0 +1,8 @@
+federation_version: =2.4.7
+subgraphs:
+  product:
+    schema:
+      subgraph_url: http://localhost:6000/graphql
+  review:
+    schema:
+      subgraph_url: http://localhost:6001/graphql
